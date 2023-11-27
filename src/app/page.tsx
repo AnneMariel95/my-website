@@ -12,8 +12,12 @@ export default function Example() {
         />
         <div className="mx-auto max-w-7xl px-6 py-32 text-center sm:py-40 lg:px-8">
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-white sm:text-5xl">
-            Page under construction
+            Hi, this is Anne Mariel!
+            <br />
           </h1>
+          <h2 className="mt-4 text-2xl font-bold tracking-tight text-white sm:text-4xl">
+            This page is under construction.
+          </h2>
           <p className="mt-4 text-base text-white/90 sm:mt-6">
             Stay tuned for my update.
           </p>
