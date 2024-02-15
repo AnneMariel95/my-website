@@ -1,4 +1,5 @@
-import Image from 'next/image';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Example() {
   return (
@@ -21,13 +22,19 @@ export default function Example() {
           <p className="mt-4 text-base text-white/90 sm:mt-6">
             Stay tuned for my update.
           </p>
-          <div className="mt-10 flex justify-center">
-            <a
-              href="mailto:a.mariel.recio@gmail.com"
-              className="text-sm font-semibold text-white"
-            >
+          <div className="mt-10 flex-col justify-center text-sm font-semibold text-neutral-50">
+            <a href="mailto:a.mariel.recio@gmail.com">
               Contact me <span aria-hidden="true">&rarr;</span>
             </a>
+            <div>
+              <Link
+                className="underline text-green-200 text-lg"
+                href="https://l.anne-mariel.com/finance-manager"
+              >
+                Click to visit my Finance Manager App{" "}
+                <span aria-hidden="true">&rarr;</span>
+              </Link>
+            </div>
           </div>
         </div>
       </main>
