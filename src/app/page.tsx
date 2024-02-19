@@ -11,6 +11,18 @@ export default function Example() {
           fill
           className="absolute inset-0 -z-10 h-full w-full object-cover object-center"
         />
+        <div className="px-8 py-4 w-full flex justify-between items-center">
+          <nav>
+            <ul className="flex gap-4 text-lg text-green-200 font-bold">
+              <li>
+                <Link href="https://ai.anne-mariel.com/">AI Chatbot</Link>
+              </li>
+              <li>
+                <Link href="https://notes.anne-mariel.com/">Notes</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div className="mx-auto max-w-7xl px-6 py-32 text-center sm:py-40 lg:px-8">
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-white sm:text-5xl">
             Hi, this is Anne Mariel!
