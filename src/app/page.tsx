@@ -28,12 +28,6 @@ export default function Example() {
             Hi, this is Anne Mariel!
             <br />
           </h1>
-          <h2 className="mt-4 text-2xl font-bold tracking-tight text-white sm:text-4xl">
-            This page is under construction.
-          </h2>
-          <p className="mt-4 text-base text-white/90 sm:mt-6">
-            Stay tuned for my update.
-          </p>
           <div className="mt-10 flex-col justify-center text-sm font-semibold text-neutral-50">
             <a href="mailto:a.mariel.recio@gmail.com">
               Contact me <span aria-hidden="true">&rarr;</span>
